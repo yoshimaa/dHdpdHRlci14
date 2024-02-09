@@ -1,0 +1,165 @@
+body {
+  color: #434343;
+  background-color: #dedede;
+}
+
+.header {
+  background-image: 
+    linear-gradient(
+      to bottom, 
+      rgba(222, 222, 222, 0%) 0%, 
+      rgba(222, 222, 222, 100%) 100%
+    ),
+    url('../texture/pattern-paper-day.png');
+}
+
+.main-content {
+  background-color: #fff;
+
+  /* box-shadow: 1px 1px 1px #fff, -1px -1px 1px #bfbfbf; */
+}
+
+.main-content h2:not(:first-of-type) {
+  border-top: 20px solid #dedede;
+}
+
+.main-content h3 {
+  border-bottom: 4px dotted #dedede;
+}
+
+.main-content ul {
+  background-color: #dedede;
+}
+
+.main-content ol {
+  background-color: #dedede;
+}
+
+.main-content .basicbox {
+  background-color: #dedede;
+}
+
+.main-content .tabbox .tabbox-title {
+  background-color: #dedede;
+}
+
+.main-content .tabbox .tabbox-content {
+  background-color: #dedede;
+}
+
+.sidebar a {
+  color: #434343;
+}
+
+.sidebar-book-title {
+  background-color: #f2f2f2;
+
+  /* box-shadow: 1px 1px 1px #fff, -1px -1px 1px #bfbfbf; */
+}
+
+.sideber-book-symbol::before {
+  background-color: #434343;
+}
+
+.color-menu {
+  color: #bfbfbf;
+  background-color: #f2f2f2;
+}
+
+.color-menu .icon-btn div {
+  background-color: #fff;
+  box-shadow: -4px -4px 8px rgb(255 255 255 / 50%), 4px 4px 8px rgb(191 191 191 / 50%);
+}
+
+.color-menu .icon-btn div:hover {
+  box-shadow: -1px -1px 2px rgb(255 255 255 / 50%), 1px 1px 2px rgb(191 191 191 / 50%);
+}
+
+/************************************
+** テーブル
+************************************/
+
+th {
+  background-color: #dedede;
+}
+
+th, td {
+  border: 1px solid #dedede;
+}
+
+/************************************
+** パーツ
+************************************/
+
+/* .chapter-title {
+  background-color: #fff;
+} */
+
+.tab-label {
+  background-color: #bfbfbf;
+}
+
+.tab-content {
+  background-color: #bfbfbf;
+}
+
+#tab-toc:checked ~ .tab-item-wrap .tab-label-toc,
+#tab-chapter:checked ~ .tab-item-wrap .tab-label-chapter {
+  background-color: #f2f2f2;
+}
+
+#tab-toc:checked ~ .tab-content-toc,
+#tab-chapter:checked ~ .tab-content-chapter {
+  background-color: #f2f2f2;
+}
+
+.sideber-book-text-image svg {
+  fill: #323232;
+}
+
+.toc-menu li a {
+  border-left: #bfbfbf solid 3px;
+}
+
+.index .active {
+  background-color: #fff;
+}
+
+.pagetop-btn {
+  background-color: #fff;
+  box-shadow: -2px -2px 4px #fff, 2px 2px 4px #bfbfbf;
+
+  /* transition: 5s; */
+}
+
+.pagetop-btn:hover {
+  background-color: #fff;
+  box-shadow: 0 0 0 #fff, 0 0 0 #bfbfbf;
+
+  /* box-shadow: inset 2px 2px 4px #bfbfbf, inset -2px -2px 4px #fff; */
+  transition: 0.5s;
+}
+
+.fixed input:checked ~ .toc-box {
+  background-color: #fff;
+  box-shadow: 0 5px 15px #001b443b;
+}
+
+/************************************
+** モバイル
+************************************/
+
+#top-menu {
+  background-color: #f2f2f2;
+  border-bottom: 4px solid #68b281;
+  border-bottom: linear-gradient(to right, #68b281 0%, #0cbaba 100%);
+  border-image-slice: 1;
+}
+
+.mobiletab-content {
+  background-color: #f2f2f2;
+}
+
+.mobiletab-label {
+  background-color: #f2f2f2;
+}

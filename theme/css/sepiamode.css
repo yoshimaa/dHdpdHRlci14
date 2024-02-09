@@ -1,0 +1,180 @@
+body {
+  color: #9f8e74;
+  background-color: #c4af8f;
+}
+
+.header {
+  background-image: 
+    linear-gradient(
+      to bottom, 
+      rgba(196, 175, 143, 0%) 0%, 
+      rgba(196, 175, 143, 100%) 100%
+    ),
+    url('../texture/pattern-paper-sepia.png');
+}
+
+.main-content {
+  background-color: #f3eacb;
+
+  /* box-shadow: 1px 1px 1px #fff, -1px -1px 1px #bfbfbf; */
+}
+
+.main-content h2:not(:first-of-type) {
+  border-top: 20px solid #c4af8f;
+}
+
+.main-content h3 {
+  border-bottom: 4px dotted #c4af8f;
+}
+
+.main-content ul {
+  background-color: #fdf6e3;
+}
+
+.main-content ol {
+  background-color: #fdf6e3;
+}
+
+.main-content .basicbox {
+  background-color: #fdf6e3;
+}
+
+.main-content .tabbox .tabbox-title {
+  background-color: #c4af8f;
+}
+
+.main-content .tabbox .tabbox-content {
+  background-color: #c4af8f;
+}
+
+.sidebar a {
+  color: #877f6a;
+}
+
+.sidebar-book-title {
+  background-color: #f3eacb;
+  box-shadow: 1px 1px 1px #fff, -1px -1px 1px #bfbfbf;
+}
+
+.sideber-book-symbol::before {
+  background-color: #111;
+}
+
+.sidebar-menu-link a {
+  background-color: #fdf6e3;
+  box-shadow: -2px -2px 4px #f7f3d7, 2px 2px 4px #9bbecf;
+
+  /* box-shadow: -2px -2px 4px rgb(247 244 231 / 50%), 2px 2px 4px  rgb(155 190 207 / 50%); */
+}
+
+.toc-menu li a {
+  border-left: #bfbfbf solid 3px;
+}
+
+.sidebar-menu-link a:hover {
+  box-shadow: 0 0 0  #f7f3d7, 0 0 0  #9bbecf;
+
+  /* box-shadow: -1px -1px 2px #f7f3d7, 1px 1px 2px #9bbecf; */
+}
+
+.color-menu {
+  background-color: #f3eacb;
+}
+
+.color-menu .icon-btn {
+  box-shadow: inset -4px -4px 8px rgb(247 244 231 / 50%), inset 4px 4px 8px  rgb(155 190 207 / 50%);
+}
+
+.color-menu .icon-btn div {
+  background-color: #f3eacb;
+  box-shadow: -4px -4px 8px rgb(247 244 231 / 50%), 4px 4px 8px rgb(155 190 207 / 50%);
+}
+
+.color-menu .icon-btn div:hover {
+  box-shadow: -1px -1px 2px rgb(247 244 231 / 50%), 1px 1px 2px rgb(155 190 207 / 50%);
+}
+
+/************************************
+** アイコン
+************************************/
+.subtitle svg {
+  fill: #9f8e74;
+}
+
+.sideber-book-text-image svg {
+  fill: #9f8e74;
+}
+
+/************************************
+** パーツ
+************************************/
+
+.chapter-title {
+  background-color: #f3eacb;
+}
+
+
+
+.index .active {
+  background-color: #fdf6e3;
+}
+
+.pagetop-btn {
+  background-color: #fdf6e3;
+  box-shadow: -2px -2px 4px #f7f3d7, 2px 2px 4px #9bbecf;
+}
+
+.pagetop-btn:hover {
+  box-shadow: 0 0 0 #f7f3d7, 0 0 0 #9bbecf;
+}
+
+.tab-label {
+  background: #111;
+}
+
+#tab-toc:checked ~ .tab-item-wrap .tab-label-toc,
+#tab-chapter:checked ~ .tab-item-wrap .tab-label-chapter {
+  background-color: #f3eacb;
+}
+
+#tab-toc:checked ~ .tab-content-toc,
+#tab-chapter:checked ~ .tab-content-chapter {
+  background-color: #f3eacb;
+
+  /* background-color: #9f8e74; */
+}
+
+
+
+/************************************
+** テーブル
+************************************/
+
+th {
+  background-color: #fdf6e3;
+}
+
+th, td {
+  border: 1px solid #fdf6e3;
+}
+
+
+
+/************************************
+** モバイル
+************************************/
+
+#top-menu {
+  background-color: #111;
+  border-bottom: 4px solid #68b281;
+  border-bottom: linear-gradient(to right, #68b281 0%, #0cbaba 100%);
+  border-image-slice: 1;
+}
+
+.mobiletab-content {
+  background-color: #f3eacb;
+}
+
+.mobiletab-label {
+  background-color: #111;
+}

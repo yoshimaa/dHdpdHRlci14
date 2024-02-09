@@ -1,0 +1,178 @@
+body {
+  color: #d3d7dc;
+  background-color: #252932;
+}
+
+.header {
+  background-image: 
+    linear-gradient(
+      to bottom, 
+      rgba(37, 41, 50, 0%) 0%, 
+      rgba(37, 41, 50, 100%) 100%
+    ),
+    url('../texture/pattern-paper-night.png');
+}
+
+.main-content {
+  /* background-color: #2e3440; */
+  background-color: #3c4454;
+}
+
+.main-content h2:not(:first-of-type) {
+  border-top: 20px solid #252932;
+}
+
+.main-content h3 {
+  border-bottom: 4px dotted #252932;
+}
+
+.main-content ul {
+  background-color: #252932;
+}
+
+.main-content ol {
+  background-color: #252932;
+}
+
+.main-content .basicbox {
+  background-color: #252932;
+}
+
+.main-content .tabbox .tabbox-title {
+  background: #252932;
+}
+
+.main-content .tabbox .tabbox-content {
+  background: #252932;
+}
+
+.chapter-title {
+  background-color: #3c4454;
+}
+
+.sidebar a {
+  color: #d3d7dc;
+}
+
+.sidebar-book-title {
+  background-color: #2e3440;
+
+  /* box-shadow: 1px 1px 1px #fff, -1px -1px 1px #bfbfbf; */
+}
+
+/* .sideber-book-symbol::before {
+  background-color: #8fb0a9;
+  background-color: #3c4454;
+} */
+
+
+
+.sidebar-menu-link a {
+  background-color: #3c4454;
+  box-shadow: -2px -2px 4px #3d4452, 2px 2px 4px #1f2227;
+}
+
+.toc-menu li a {
+  border-left: #bfbfbf solid 3px;
+}
+
+.sidebar-menu-link a:hover {
+  box-shadow: 0 0 0 #3d4452, 0 0 0 #1f2227;
+  box-shadow: -1px -1px 2px #3d4452, 1px 1px 2px #1f2227;
+}
+
+
+
+.color-menu {
+  background-color: #2e3440;
+
+  /* background-color: #3c4454; */
+}
+
+.color-menu .icon-btn {
+  box-shadow: inset -4px -4px 8px rgb(57 72 103 / 50%), inset 4px 4px 8px  rgb(32 34 39 / 50%);
+}
+
+.color-menu .icon-btn div {
+  background-color: #2e3440;
+  box-shadow: -4px -4px 8px rgb(57 72 103 / 50%), 4px 4px 8px  rgb(32 34 39 / 50%);
+}
+
+.color-menu .icon-btn div:hover {
+  box-shadow: -1px -1px 2px rgb(57 72 103 / 50%), 1px 1px 2px rgb(32 34 39 / 50%);
+}
+
+/************************************
+** アイコン
+************************************/
+.subtitle svg {
+  fill: #d3d7dc;
+}
+
+.sideber-book-text-image svg {
+  fill: #d3d7dc;
+}
+
+/************************************
+** テーブル
+************************************/
+
+th {
+  background-color: #252932;
+}
+
+th, td {
+  border: 1px solid #252932;
+}
+
+
+
+/************************************
+** パーツ
+************************************/
+
+.index .active {
+  background-color: #3c4454;
+}
+
+.pagetop-btn {
+  background-color: #3c4454;
+  box-shadow: -2px -2px 4px #3d4452, 2px 2px 4px #1f2227;
+}
+
+.pagetop-btn:hover {
+  box-shadow: 0 0 0 #3d4452, 0 0 0 #1f2227;
+}
+
+.tab-label {
+  background: #111;
+}
+
+#tab-toc:checked ~ .tab-item-wrap .tab-label-toc,
+#tab-chapter:checked ~ .tab-item-wrap .tab-label-chapter {
+  background-color: #2e3440;
+}
+
+#tab-toc:checked ~ .tab-content-toc,
+#tab-chapter:checked ~ .tab-content-chapter {
+  background-color: #2e3440;
+}
+
+/************************************
+** モバイル
+************************************/
+
+#top-menu {
+  background-color: #2e3440;
+  border-bottom: 4px solid #68b281;
+  border-bottom: linear-gradient(to right, #68b281 0%, #0cbaba 100%);
+  border-image-slice: 1;
+}
+
+.mobiletab-content {
+  background-color: #2e3440;
+}
+
+.mobiletab-label {
+  background-color: #2e3440;
+}
